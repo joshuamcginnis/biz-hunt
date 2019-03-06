@@ -8,6 +8,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/joshuamcginnis/biz-hunt/gui"
+
 	"github.com/chromedp/cdproto/cdp"
 	"github.com/chromedp/chromedp"
 	"github.com/chromedp/chromedp/runner"
@@ -41,6 +43,8 @@ type Listing struct {
 }
 
 func main() {
+	gui.render()
+
 	var err error
 
 	ctxt, cancel := context.WithCancel(context.Background())
