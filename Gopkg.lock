@@ -74,6 +74,14 @@
   version = "v1.6.0"
 
 [[projects]]
+  branch = "master"
+  digest = "1:f14d1b50e0075fb00177f12a96dd7addf93d1e2883c25befd17285b779549795"
+  name = "github.com/gopherjs/gopherjs"
+  packages = ["js"]
+  pruneopts = "UT"
+  revision = "d547d1d9531ed93dbdebcbff7f83e7c876a1e0ee"
+
+[[projects]]
   digest = "1:7b5c6e2eeaa9ae5907c391a91c132abfd5c9e8a784a341b5625e750c67e6825d"
   name = "github.com/gorilla/websocket"
   packages = ["."]
@@ -112,6 +120,19 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:101da9f7f60b55c6781928b9f20f37241f9dbf15532eb69226187557d511fd68"
+  name = "github.com/therecipe/qt"
+  packages = [
+    ".",
+    "core",
+    "gui",
+    "widgets",
+  ]
+  pruneopts = "UT"
+  revision = "e73768bc9bcc6b8cdf6d648be24d3b564ea63cc4"
+
+[[projects]]
+  branch = "master"
   digest = "1:acadbbf02e5c744709c60ac929e63258a69a3404ab36ed0c1a245cc28f056220"
   name = "golang.org/x/image"
   packages = [
@@ -129,6 +150,8 @@
     "github.com/chromedp/cdproto/cdp",
     "github.com/chromedp/chromedp",
     "github.com/chromedp/chromedp/runner",
+    "github.com/therecipe/qt",
+    "github.com/therecipe/qt/widgets",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
